@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My Bio Data</h1>
+    <br>
+    <form>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fname">FirstName:</label>
+            <input type="text" id="fname" placeholder="First Name">
+            <label for="Lname">LastName:</label>
+            <input type="text" id="Lname" placeholder="Last Name">
+            <br><br><br>
+            <label for="male">Male:</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female:</label>
+            <input type="radio" name="gender" id="female">
+            <label for="other">Other:</label>
+            <input type="radio" name="gender" id="other">
+            <br><br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="date" id="dob">
+            <br><br>
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" placeholder="Enter your Email">
+            <br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" placeholder="+91" maxlength="10">
+        </fieldset>
+    <br><br>
+        <fieldset>
+            <legend>Education</legend>
+            <label for="Schname">School Name:</label>
+            <input type="text" id="Schname" placeholder="School Name">
+            <br><br>
+            <label for="Class">Class:</label>
+            <input type="text" id="Class" placeholder="Enter Class">
+            <br><br>
+            <label for="stream">Stream:</label>
+            <select id="steam">
+                <option value="science">Science</option>
+                <option value="commerce">Commerce</option>
+                <option value="arts">Arts</option>
+            </select>
+            <br><br>
+            <label for="mksheet">Marksheet:</label>
+            <input type="file" id="mksheet" placeholder="Choose File" accept=".pdf">
+        </fieldset>
+    <br><br>
+    <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
